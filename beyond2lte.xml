@@ -1,0 +1,17 @@
+<manifest>
+<!-- Device -->
+<project name="sailinggalaxians/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="github" revision="lineage-17.0"/>
+<project name="sailinggalaxians/android_device_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" revision="lineage-17.0"/>
+<!-- Hardware -->
+<project name="sailinggalaxians/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.0"/>
+<!-- Kernel -->
+<project name="sailingalaxians/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="pie"/>
+<project name="sailinggalaxians/android_kernel_samsung_universal9820" path="kernel/samsung/universal9820" remote="github" revision="TW90"/>
+<!-- Proprietary blobs -->
+<project name="sailinggalaxians/proprietary_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="github" revision="pie"/>
+<project name="sailinggalaxians/proprietary_vendor_samsung" path="vendor/samsung/beyond2lte-common" remote="github" revision="hybris-14.1"/>
+<!-- Sailfish repos -->
+<project name="sailinggalaxians/droid-hal-beyond2lte" path="rpm" revision="master"/>
+<project name="sailinggalaxians/droid-config-beyond2lte" path="hybris/droid-configs" revision="master"/>
+<project name="sailingalaxians/droid-hal-version-beyond2lte" path="hybris/droid-hal-version-beyond2lte" revision="master"/>
+</manifest>
