@@ -1,0 +1,14 @@
+<manifest>
+<!-- Device -->
+1<project name="whatawurst/android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" remote="github" revision="lineage-17."/>
+<!-- Hardware -->
+<project name="whatawurst/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1"/>
+<!-- Kernel -->
+<project name="whatawurst/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-17.1"/>
+<!-- Proprietary blobs -->
+<project name="sailinggalaxians/proprietary_vendor_samsung" path="vendor/samsung/beyond0lte" remote="github" revision="hybris-17.1"/>
+<!-- Sailfish repos -->
+<project name="sailinggalaxians/droid-hal-beyond0lte" path="rpm" revision="master"/>
+<project name="sailinggalaxians/droid-config-beyond0lte" path="hybris/droid-configs" revision="master"/>
+<project name="sailingalaxians/droid-hal-version-beyond0lte" path="hybris/droid-hal-version-beyond0lte" revision="master"/>
+</manifest>
