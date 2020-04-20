@@ -1,11 +1,12 @@
 <manifest>
 <!-- Device -->
-<project name="whatawurst/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="github" revision="lineage-17.1"/>
-<project name="whatawurst/android_device_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" revision="lineage-17.1"/>
-<!-- Kernel -->
-<project name="whatawurst/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-17.1"/>
-<!-- Proprietary blobs -->
-<project name="sailinggalaxians/proprietary_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="github" revision="lineage-17.1"/>
+      <project name="whatawurst/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" />
+<!-- Common kernel -->
+      <project name="whatawurst/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" />
+<!-- Proprietary vendor files -->
+      <project name="sailinggalaxians/proprietary_vendor_samsung" path="vendor/samsung/beyond2lte" remote="github" />
+<!-- SE Linux Policy -->
+      <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
 <!-- Sailfish repos -->
 <project name="sailinggalaxians/droid-hal-beyond2lte" path="rpm" revision="hybris-17.1"/>
 <project name="sailinggalaxians/droid-config-beyond2lte" path="hybris/droid-configs" revision="hybris-17.1"/>
