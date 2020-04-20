@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device -->
       <project name="whatawurst/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" />
