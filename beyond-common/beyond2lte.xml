@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device -->
-      <project name="whatawurst/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" revision="lineage-17.1" />
+      <project name="whatawurst/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" revision="github" />
+<!-- Common devices -->
+      <project name="whatawurst/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" />
+<!-- Hardware -->
+      <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 <!-- Common kernel -->
-      <project name="whatawurst/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-17.1" />
+      <project name="whatawurst/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" />
 <!-- Proprietary vendor files -->
-      <project name="sailinggalaxians/proprietary_vendor_samsung" path="vendor/samsung/beyond2lte" remote="github" revision="hybris-17.1" />
-<!-- SE Linux Policy -->
-      <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-17.1" />
+      <project name="whatawurst/android_vendor_samsung_beyond2lte" path="vendor/samsung/beyond2lte" remote="github" />
+      <!-- SE Linux Policy -->
+      <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
 <!-- Sailfish repos -->
-<project name="sailinggalaxians/droid-hal-beyond2lte" path="rpm" revision="hybris-17.1"/>
-<project name="sailinggalaxians/droid-config-beyond2lte" path="hybris/droid-configs" revision="hybris-17.1"/>
-<project name="sailingalaxians/droid-hal-version-beyond2lte" path="hybris/droid-hal-version-beyond2lte" revision="hybris-17.1"/>
+      <project name="sailinggalaxians/droid-hal-beyond2lte" path="rpm" remote="github" revision="hybris-17.1"/>
+      <project name="sailinggalaxians/droid-config-beyond2lte" path="hybris/droid-configs" remote="github" revision="hybris-17.1"/>
+      <project name="sailingalaxians/droid-hal-version-beyond2lte" path="hybris/droid-hal-version-beyond2lte" remote="github" revision="hybris-17.1"/>
 </manifest>
