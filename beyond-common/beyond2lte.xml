@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
 <!-- Device -->
-      <project name="whatawurst/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" revision="github" />
+<project name="LineageOS/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="github" />
+
 <!-- Common devices -->
-      <project name="whatawurst/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" />
+<project name="LineageOS/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" />
+
+<!-- SE Linux Policy -->
+<project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
+
 <!-- Hardware -->
-      <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
-<!-- Common kernel -->
-      <project name="sailinggalaxians/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" />
+<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+<!-- NFC -->
+<project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" />
+
+<!-- Kernel-->
+<project name="LineageOS/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" />
+
 <!-- Proprietary vendor files -->
-      <project name="sailinggalaxians/proprietary_vendor_samsung" path="vendor/samsung/beyond2lte" remote="github" />
-      <!-- SE Linux Policy -->
-      <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
-<!-- Sailfish repos -->
-      <project name="sailinggalaxians/droid-hal-beyond2lte" path="rpm" remote="github" revision="hybris-17.1"/>
-      <project name="sailinggalaxians/droid-config-beyond2lte" path="hybris/droid-configs" remote="github" revision="hybris-17.1"/>
-      <project name="sailingalaxians/droid-hal-version-beyond2lte" path="hybris/droid-hal-version-beyond2lte" remote="github" revision="hybris-17.1"/>
+<project name="sailinggalaxians/proprietary_vendor_samsung" path="vendor/samsung/beyond2lte" remote="github" />
+
+## Sailfish OS repos ##
+
+<!-- Droid HAL -->
+<project name="sailinggalaxians/droid-hal-beyond2lte" path="rpm" remote="github" revision="hybris-17.1"/>
+
+<!-- Droid Config -->
+<project name="sailinggalaxians/droid-config-beyond2lte" path="hybris/droid-configs" remote="github" revision="hybris-17.1"/>
+
+<!-- Droid HAL Version -->
+<project name="sailingalaxians/droid-hal-version-beyond2lte" path="hybris/droid-hal-version-beyond2lte" remote="github" revision="hybris-17.1"/>
 </manifest>
